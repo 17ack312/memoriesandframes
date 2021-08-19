@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+}
+
+section.navigation{
+  background-image: url("https://github.com/17ack312/memoriesandframes/blob/main/image/memo&fr%20(1).gif?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 966px;
+  width: 100%;
+  text-align: center;
+}
+
+div.sidenav{
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  width: 170px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 0 7px 7px 0;
+  margin-top: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  animation-name: nav_a;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border: 3px solid black;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+#home{
+  top: 20px;
+  animation-timing-function: ease-out;
+}
+#about {
+  top: 80px;
+  animation-timing-function: ease-in;
+}
+#gall {
+  top: 140px;
+  animation-timing-function: ease-out;
+}/*
+#projects {
+  top: 200px;
+  animation-timing-function: ease-in;
+}*/
+#contact {
+  /*top: 260px;*/
+  top: 200px;
+  animation-timing-function: ease-in;
+}
+
+@keyframes nav_a {
+  from {background-color: lightgoldenrodyellow;
+    color: black;
+    width: 300px;
+    border: none;}
+  to {background-color: maroon;
+    width: 150px;
+    border: none;
+    color: white;}
+}
+
+.container img{
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 220px;
+  border: 10px ridge royalblue;
+  width: 20%;
+  max-width: 40%;
+  height: auto;
+}
+.container img:hover{
+  animation: mymove1 10s ;
+}
+
+.container h1{
+  font-family: algerian;
+  font-size: 250%;
+  text-decoration: underline;
+  animation: mf;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.container button{
+  border-radius: 50%;
+  padding: 20px;
+}
+
+@keyframes mf{
+  0%{color: blue;
+  text-shadow: 2px 2px green;}
+  10%{color: green;
+  text-shadow: 2px 2px black;}
+  20%{color: black;
+  text-shadow: 2px 2px white;}
+  30%{color: white;
+  text-shadow: 2px 2px royalblue;}
+  40%{color: royalblue;
+  text-shadow: 2px 2px coral;}
+  50%{color: coral;
+  text-shadow: 2px 2px crimson;}
+  60%{color: crimson;
+  text-shadow: 2px 2px cyan;}
+  70%{color: cyan;
+  text-shadow: 2px 2px magenta;}
+  80%{color: magenta;
+  text-shadow: 2px 2px bisque;}
+  90%{color: bisque;
+  text-shadow: 2px 2px black;}
+  100%{color: darkkhaki;
+  text-shadow: 2px 2px blue;}
+}
+
+section.About{
+  background-image: url("https://github.com/17ack312/memoriesandframes/blob/main/image/souvik_blur.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 968px;
+  width: 100%;
+  text-align: center;
+  margin-top: -25px;
+}
+
+p#About{
+  text-align: center;
+  padding: 250px;
+  padding-top: 375px;
+  font-family: century;
+  color: black;
+  animation: about;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes about{
+  0%{color: blue;
+  text-shadow: 1px 1px green;
+  font-size: 120%;
+  font-weight: 155%;}
+  20%{color: darkred;
+  text-shadow: 1px 1px black;
+  font-size: 125%;
+  font-weight: 160%;}
+  40%{color: royalblue;
+  text-shadow: 1px 1px coral;
+  font-size: 130%;
+  font-weight: 165%;}
+  60%{color: crimson;
+  text-shadow: 1px 1px cyan;
+  font-size: 135%;
+  font-weight: 170%;}
+  80%{color: magenta;
+  text-shadow: 1px 1px bisque;
+  font-size: 140%;
+  font-weight: 175%;}
+  100%{color: khaki;
+  text-shadow: 1px 1px blue;
+  font-size: 145%;
+  font-weight: 180%;}
+}
+
+section.Gallery{
+  background-image: url("https://scontent-tir2-1.xx.fbcdn.net/v/t1.6435-9/s552x414/120195194_1686848028139484_7037150354179427774_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=eWaAo-z2_NQAX_AB1AD&_nc_ht=scontent-tir2-1.xx&oh=3d008a1778c3fac9a6786bae593ea02d&oe=613D36CA");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 970px;
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+  }
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid blue;
+  box-shadow: 5px 5px royalblue;
+  animation: photo;
+  animation-duration: 10s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background: lightsteelblue;
+}
+
+#start{
+  margin-left: 230px;
+}
+.responsive {
+  padding: 6px;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 900px) {
+  #start{
+  margin-left: 0px;
+}
+  .responsive {
+    width: 49.99999%;
+    margin: 10px;
+    text-align: center;
+  }
+  p#About{
+    font-size: 50%;
+    padding: 10px;
+  }
+  *{height: auto;}
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .responsive div.gallery{
+    margin-left: 230px;
+  }
+  p#About{
+    font-size: 50%;
+    padding: 10px;
+  }
+  *{height: auto;}
+}
+@media only screen and (min-width 901px){
+  div#start{
+  margin-left: 230px;}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@keyframes photo{
+  0%{}
+  25%{}
+  50%{}
+  75%{}
+  100%{}
+
+}
+
+section.Contact{
+  
+  padding-top: 50px;
+  text-align: center;
+  position: sticky;
+}
+
+.Contact img{
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+section#Project{
+  display: none;
+  background-image: url("https://scontent.fccu7-1.fna.fbcdn.net/v/t1.18169-9/10959464_440370972787202_3570808915290759463_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=4BQcX4H5Dd0AX_rnMFv&tn=ke2X3c_o6oxgDjLQ&_nc_ht=scontent.fccu7-1.fna&oh=6a1c9083b22f66f84f9065f39d29b94c&oe=6143964D");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 968px;
+  width: 100%;
+  text-align: center;
+  margin-top: -25px;
+}
